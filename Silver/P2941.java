@@ -25,7 +25,7 @@ public class P2941 {
 					if (alph.charAt(i + 1) == 'z') {
 						if (i < alph.length() - 2) {
 							if (alph.charAt(i + 2) == '=') {
-								i += 2;
+								i = i + 2;
 							}
 						}
 					}
